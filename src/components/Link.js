@@ -39,6 +39,10 @@ class Link extends Component {
       variables: {
         linkId,
       },
+      // Update cache/store
+      update: (store, { data: { vote } }) => {
+        this.props.updateStoreAfterVote(store, vote, linkId);
+      },
     });
   };
 }
