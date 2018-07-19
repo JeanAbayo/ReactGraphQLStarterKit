@@ -14,16 +14,19 @@ React GraphQL Starter Kit 🚀🚀
 
 #### Install and Run the Client
 
->- `yarn install`
->- `yarn start`
+`yarn install`
+
+`yarn start`
 
 Should be running at `http://localhost:3000` now 🤗 .
 
 #### Install and run the server
 
->- `cd server/`
->- `yarn install`
->- `yarn start`
+```cd server/```
+
+`yarn install`
+
+`yarn start`
 
 Should be running at `http://localhost:4000` now 👻.
 
